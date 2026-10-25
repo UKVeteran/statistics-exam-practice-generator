@@ -225,8 +225,8 @@ if mode == "Student Practice":
         st.write("Given the sample dataset:")
         st.code(list(q["data"]))
         st.markdown(
-            f"Test the null hypothesis **$H_0: \\mu = {q['null_mean']}$** against the two-sided alternative **$H_1: \\mu \\
-eq {q['null_mean']}$**."
+            f"Test the null hypothesis **$H_0: \\\\mu = {q['null_mean']}$** "
+            f"against the two-sided alternative **$H_1: \\\\mu \\\\neq {q['null_mean']}$**."
         )
 
         col1, col2 = st.columns(2)
